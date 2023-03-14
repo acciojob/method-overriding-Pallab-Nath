@@ -3,8 +3,8 @@ public class Main {
 
     public static void main(String args[])
     {
-        B b = new B();
-        String s = b.meth();
+        B obj = new B();
+        String s = obj.meth();
         System.out.println(s);
     }
 }
